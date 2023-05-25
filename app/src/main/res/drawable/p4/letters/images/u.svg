@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 434.16 432">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-32);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <filter id="drop-shadow-32" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="87.413556" y1="216" x2="346.746444" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#607d8b"/>
+      <stop offset=".25" stop-color="#8bc34a"/>
+      <stop offset=".5" stop-color="#fbc02d"/>
+      <stop offset=".75" stop-color="#ff9800"/>
+      <stop offset="1" stop-color="#d32f2f"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-2" d="m346.746444,245c0,97.333333-44.149333,146-132.444,146-84.593778,0-126.888889-46.961778-126.888889-140.888889V41h44.444444v207.111111c0,68.888889,28.888889,103.333333,86.666667,103.333333,55.850222,0,83.777333-33.333333,83.777333-100V41h44.444444v204Z"/>
+  </g>
+</svg>

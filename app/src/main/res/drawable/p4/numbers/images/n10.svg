@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 434.16 432">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+        filter: url(#drop-shadow-54);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+        filter: url(#drop-shadow-53);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="207.3209" y1="322.148954" x2="20.056034" y2="98.975378" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d32f2f"/>
+      <stop offset=".25" stop-color="#ff9800"/>
+      <stop offset=".5" stop-color="#fbc02d"/>
+      <stop offset=".75" stop-color="#8bc34a"/>
+      <stop offset="1" stop-color="#607d8b"/>
+    </linearGradient>
+    <filter id="drop-shadow-53" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="397.956531" y1="331.643148" x2="201.153779" y2="97.102761" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-54" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-2" d="m95.887763,385.652344V92.695932c-5.65262,6.781554-15.204131,14.371447-28.657484,22.773215-13.453352,8.401769-25.893096,14.298926-37.319231,17.687934v-42.451042c15.111985-5.009223,31.266328-13.006822,48.468927-23.989261,17.19965-10.978901,30.408262-21.336071,39.622887-31.064435h13.637645v350h-35.752745Z"/>
+  <path class="cls-1" d="m197.105307,221.470442c0-59.753154,9.053904-104.96852,27.164909-135.649594,18.107809-30.677577,44.342719-46.018114,78.698339-46.018114,65.515368,0,98.273052,57.860837,98.273052,173.579013,0,57.133292-9.222487,100.818364-27.664264,131.058713-18.444973,30.243848-44.311559,45.362274-77.599758,45.362274-31.428202,0-55.762367-14.353279-73.005692-43.066833-17.246521-28.710056-25.866586-70.465209-25.866586-125.265459Zm39.948395-1.96752c0,89.925297,20.838681,134.884447,62.519239,134.884447,41.012621,0,61.520529-45.690194,61.520529-137.070581,0-94.584385-20.108424-141.880075-60.322077-141.880075-42.479526,0-63.71769,48.023235-63.71769,144.066209Z"/>
+</svg>

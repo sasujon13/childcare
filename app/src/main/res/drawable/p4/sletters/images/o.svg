@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 434.16 432">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-13);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <filter id="drop-shadow-13" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="98.341226" y1="245" x2="335.818774" y2="245" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d32f2f"/>
+      <stop offset=".25" stop-color="#ff9800"/>
+      <stop offset=".5" stop-color="#fbc02d"/>
+      <stop offset=".75" stop-color="#8bc34a"/>
+      <stop offset="1" stop-color="#607d8b"/>
+    </linearGradient>
+    <filter id="drop-shadow-18" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-2" d="m98.341226,247.590674c0-39.433506,11.010363-70.559585,33.031088-93.373057,22.020725-22.810017,51.884283-34.217617,89.594128-34.217617,35.837651,0,63.936097,10.97582,84.304836,32.92228,20.364421,21.949914,30.547496,52.283247,30.547496,90.998273,0,37.709845-10.868739,68.150259-32.599309,91.321244-21.733161,23.174439-50.878238,34.758204-87.43437,34.758204-35.696028,0-64.193437-11.226252-85.492228-33.678756-21.302245-22.452504-31.951641-52.029361-31.951641-88.73057Zm43.177893-1.295337c0,27.492228,6.941278,49.151986,20.83247,64.982729,13.887737,15.834197,32.56304,23.747841,56.02418,23.747841,24.17962,0,42.601036-7.735751,55.267703-23.208981,12.663212-15.469775,18.997409-37.671848,18.997409-66.601036,0-29.070812-6.334197-51.381693-18.997409-66.925734-12.666667-15.544041-31.088083-23.316062-55.267703-23.316062-23.747841,0-42.497409,8.132988-56.240069,24.395509-13.746114,16.265976-20.61658,38.573402-20.61658,66.925734Z"/>
+  </g>
+</svg>

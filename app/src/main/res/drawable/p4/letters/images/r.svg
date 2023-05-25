@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 434.16 432">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-30);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <filter id="drop-shadow-30" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="89.304467" y1="216" x2="344.855533" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#607d8b"/>
+      <stop offset=".25" stop-color="#8bc34a"/>
+      <stop offset=".5" stop-color="#fbc02d"/>
+      <stop offset=".75" stop-color="#ff9800"/>
+      <stop offset="1" stop-color="#d32f2f"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-2" d="m344.855533,391h-53.324726l-58.068819-97.159458c-11.601291-19.431892-22.221046-32.651001-31.859264-39.65552-9.641833-7.004519-21.165397-10.505875-34.570691-10.505875h-32.537121v147.320852h-45.190445V41h106.649451c34.041059,0,60.703422,8.212008,79.986185,24.628793,19.280052,16.4204,28.921885,39.393415,28.921885,68.915429,0,48.505617-25.910394,79.987088-77.726662,94.448031v1.129761c9.638218,4.06714,17.963202,9.867786,24.967721,17.398321,7.004519,7.534151,16.076953,20.413428,27.22634,38.637831l65.526146,104.841833ZM134.494913,80.54164v123.595868h53.324726c20.635765,0,37.395094-6.022983,50.274371-18.076178,12.879277-12.04958,19.318915-27.866236,19.318915-47.449968,0-18.224403-5.874758-32.459393-17.624274-42.704971-11.749516-10.241963-28.847773-15.364751-51.291156-15.364751h-54.002582Z"/>
+  </g>
+</svg>

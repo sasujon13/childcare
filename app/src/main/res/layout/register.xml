@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/childsFullNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/DateOfBirthTextView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="15dp"
+        android:hint="Child's Full Name"
+        android:inputType="text"
+        android:backgroundTint="@color/teal" />
+
+    <TextView
+        android:id="@+id/DateOfBirthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child's Date of Birth"
+        android:layout_above="@id/dayLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/dayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/monthSpinner"
+        android:text="Day"
+        android:layout_marginRight="7dp"
+        android:layout_above="@id/daySpinner"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/yourMobileNumberEditText"
+        android:layout_toLeftOf="@id/monthSpinner" />
+
+    <TextView
+        android:id="@+id/monthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Month"
+        android:layout_above="@id/monthSpinner"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/yourMobileNumberEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:id="@+id/yearLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:layout_above="@id/yearSpinner"
+        android:layout_toEndOf="@id/monthSpinner"
+        android:layout_marginStart="32dp"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/yourMobileNumberEditText"
+        android:layout_toEndOf="@id/monthSpinner"
+        android:layout_marginStart="30dp" />
+
+    <EditText
+        android:id="@+id/yourMobileNumberEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/registerButton"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="15dp"
+        android:hint="Your Mobile Number"
+        android:inputType="phone"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/teal" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="Register"
+        android:backgroundTint="@color/teal" />
+
+</RelativeLayout>
