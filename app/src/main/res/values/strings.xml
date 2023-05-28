@@ -1,9 +1,9 @@
 <resources>
 <string name="app_name">Child Care</string>
 <string-array name="date_options">
-    <item>Option 1</item>
-    <item>Option 2</item>
-    <item>Option 3</item>
+    <item>Day</item>
+    <item>Month</item>
+    <item>Year</item>
     <!-- Add more options as needed -->
 </string-array>
 </resources>

@@ -1,110 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:padding="16dp"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/phoneNumberEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/loginButton"
-        android:layout_marginBottom="30dp"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="25dp"
-        android:padding="15dp"
-        android:hint="Enter Your Mobile Number"
-        android:inputType="phone"
-        android:backgroundTint="@color/teal" />
-
-    <Button
-        android:id="@+id/loginButton"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="25dp"
-        android:padding="10dp"
-        android:text="Login"
-        android:backgroundTint="@color/teal" />
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/registerTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/loginButton"
-        android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/orange1"
-        android:text="Don't have an account?" />
-    <TextView
-        android:id="@+id/registerTextView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/registerTextView"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/teal"
-        android:text="Please click on Register button." />
-
-    <TextView
-        android:id="@+id/replaceTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/loginButton"
-        android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/orange1"
-        android:text="Do you want to Replace your Device?"
-        android:visibility="gone"/>
-    <TextView
-        android:id="@+id/replaceTextView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/registerTextView"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/teal"
-        android:text="Please click on Replace button."
-        android:visibility="gone"/>
-
-    <Button
-        android:id="@+id/registerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/registerTextView"
-        android:textSize="20dp"
-        android:layout_marginTop="40dp"
-        android:padding="10dp"
-        android:text="Register"
-        android:backgroundTint="@color/teal"
-        android:visibility="visible"/>
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="15dp"
+            android:hint="Enter Your Mobile Number"
+            android:inputType="phone"
+            android:backgroundTint="@color/teal"/>
 
         <Button
-        android:id="@+id/replaceButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/registerTextView"
-        android:textSize="20dp"
-        android:layout_marginTop="40dp"
-        android:padding="10dp"
-        android:text="Replace"
-        android:backgroundTint="@color/teal"
-        android:visibility="gone"/>
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/phoneNumberEditText"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:text="Login"
+            android:backgroundTint="@color/teal" />
 
+        <TextView
+            android:id="@+id/registerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_below="@id/loginButton"
+            android:textColor="@color/orange1"
+            android:text="Don't have an account?" />
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/registerTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/teal"
+            android:text="Please click on the Register button..." />
+
+        <TextView
+            android:id="@+id/replaceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_below="@id/loginButton"
+            android:textColor="@color/orange1"
+            android:text="Do you want to Replace your Device?"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/replaceTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/teal"
+            android:text="Please click on the Replace button..."
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:text="Register"
+            android:backgroundTint="@color/teal"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/replaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/replaceTextView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:text="Replace"
+            android:backgroundTint="@color/teal"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</ScrollView>
