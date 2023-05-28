@@ -5,6 +5,26 @@
     android:viewportWidth="288"
     android:viewportHeight="288">
   <path
+      android:strokeWidth="1"
+      android:pathData="M0,0h288v288h-288z"
+      android:fillColor="#000000"> <!-- Set the background color to black -->
+    <aapt:attr name="android:strokeColor">
+      <gradient
+          android:startX="144"
+          android:startY="288.5"
+          android:endX="144"
+          android:endY="-0.5"
+          android:type="linear">
+        <item android:offset="0" android:color="#FF607D8B"/>
+        <item android:offset="0.25" android:color="#FF8BC34A"/>
+        <item android:offset="0.5" android:color="#FFFBC02D"/>
+        <item android:offset="0.75" android:color="#FFFF9800"/>
+        <item android:offset="1" android:color="#FFD32F2F"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+
+  <path
       android:pathData="M220.2,203.1l-16.2,31.9l10.3,0l16.4,-31.9z">
     <aapt:attr name="android:fillColor">
       <gradient 
