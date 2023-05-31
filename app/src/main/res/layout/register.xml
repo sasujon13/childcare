@@ -15,8 +15,8 @@
             android:id="@+id/childsFullNameEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@id/DateOfBirthTextView"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
             android:gravity="center"
             android:textSize="25dp"
             android:padding="15dp"
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Child's Date of Birth"
-            android:layout_above="@id/daySpinner"
+            android:layout_below="@id/childsFullNameEditText"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:textSize="25dp"
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:layout_above="@id/yourMobileNumberEditText"
+            android:layout_below="@id/DateOfBirthTextView"
             android:layout_toLeftOf="@id/monthSpinner"
             style="@style/SpinnerStyle" />
 
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:layout_above="@id/yourMobileNumberEditText"
+            android:layout_below="@id/DateOfBirthTextView"
             android:layout_centerHorizontal="true"
             style="@style/SpinnerStyle" />
 
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:layout_above="@id/yourMobileNumberEditText"
+            android:layout_below="@id/DateOfBirthTextView"
             android:layout_toEndOf="@id/monthSpinner"
             style="@style/SpinnerStyle" />
 
@@ -67,7 +67,7 @@
             android:id="@+id/yourMobileNumberEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@id/registerButton"
+            android:layout_below="@id/yearSpinner"
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:textSize="25dp"
@@ -81,10 +81,10 @@
             android:id="@+id/registerButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             android:textSize="20dp"
-            android:layout_marginTop="30dp"
+            android:layout_below="@id/yourMobileNumberEditText"
+            android:layout_marginTop="20dp"
             android:padding="15dp"
             android:text="Register"
             android:backgroundTint="@color/teal" />

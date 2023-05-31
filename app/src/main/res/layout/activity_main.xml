@@ -108,7 +108,7 @@
             android:padding="10dp"
             android:text="Replace"
             android:backgroundTint="@color/teal"
-            android:visibility="visible" />
+            android:visibility="gone" />
 
     </RelativeLayout>
 </ScrollView>
